@@ -1,0 +1,42 @@
+.element {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255,0.6);
+    width: 75%
+}
+
+.element .element {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255,0.6);
+    width: 100%
+}
+.tab {
+    margin-top: 10px;
+    color: rgba(255, 255, 255,0.6); 
+    padding: 5px;
+    border-bottom: 3px solid rgba(255, 255, 255,0.2);
+    border-radius: 20x 10px 0 0;
+    cursor: pointer
+}
+
+.active {
+    background: none;
+    border-bottom: 3px solid
+}
+
+.content {
+    text-align:left;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255,255,255,0.2)
+}
+
+.content .content {
+    width: 1395px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255,255,255,0.2)
+}
